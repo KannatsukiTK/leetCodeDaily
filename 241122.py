@@ -8,6 +8,7 @@
 数字 6 不是 特殊数字，因为它的真因数为 1、2 和 3。
 返回区间 [l, r] 内 不是 特殊数字 的数字数量
 '''
+import math
 class Solution:
     def nonSpecialCount(self, l: int, r: int) -> int:
         n = int(math.sqrt(r))
