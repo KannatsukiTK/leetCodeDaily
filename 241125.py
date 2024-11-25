@@ -43,6 +43,7 @@ class Solution:
         # return ans
         return ans if ans < float('inf') else -1
 '''
+https://www.cnblogs.com/liuzhongkun/p/16530421.html#tid-6mRFxB
 经典Dijkstra算法，关键点：
 visited = [False] * n #未使用过的节点
 dist = [MAX] * n #到每个节点的最短距离
